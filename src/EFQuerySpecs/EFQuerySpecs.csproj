@@ -6,8 +6,8 @@
     <PackageId>EFQuerySpecs</PackageId>
     <Title>EFQuerySpecs</Title>
     <Copyright>© 2021 Kyle Finley</Copyright>
-    <PackageTags>Entity-Framework </PackageTags>
-    <Version>5.0.7</Version>
+    <PackageTags>Entity-Framework</PackageTags>
+    <Version>5.0.8</Version>
     <Authors>Kyle Finley</Authors>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageProjectUrl>https://github.com/kfinley/EFQuerySpecs</PackageProjectUrl>
@@ -18,7 +18,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.8" />
     <PackageReference Include="Microsoft.Extensions.Logging" Version="5.0.0" />
   </ItemGroup>
 
