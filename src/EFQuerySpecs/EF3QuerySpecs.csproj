@@ -7,7 +7,7 @@
     <Title>EFQuerySpecs</Title>
     <Copyright>© 2021 Kyle Finley</Copyright>
     <PackageTags>Entity-Framework </PackageTags>
-    <Version>3.1.17</Version>
+    <Version>3.1.18</Version>
     <Authors>Kyle Finley</Authors>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageProjectUrl>https://github.com/kfinley/EFQuerySpecs</PackageProjectUrl>
