@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Description>EFQuerySpecs is a lightweight Domain Driven Design Specification pattern implementation for Entity Framework Core.</Description>
+    <PackageId>EFQuerySpecs</PackageId>
+    <Title>EFQuerySpecs</Title>
+    <Copyright>© 2021 Kyle Finley</Copyright>
+    <PackageTags>Entity-Framework </PackageTags>
+    <Version>3.1.17</Version>
+    <Authors>Kyle Finley</Authors>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageProjectUrl>https://github.com/kfinley/EFQuerySpecs</PackageProjectUrl>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/kfinley/EFQuerySpecs</RepositoryUrl>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../../readme.txt" Pack="true" PackagePath="."/>
+    <None Include="../../README.md" Pack="true" PackagePath="." />
+    <None Include="../../LICENSE.txt" Pack="true" PackagePath="." />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.17" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="3.1.17" />
+  </ItemGroup>
+
+</Project>
