@@ -1,4 +1,4 @@
-name: Publish EF3 Nuget Package
+name: Publish EF5 Nuget Package
 
 on:
   push:
